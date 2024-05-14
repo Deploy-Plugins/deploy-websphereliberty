@@ -1,0 +1,313 @@
+[
+    {
+        "version": "23",
+        "semver": "23.1154049",
+        "date": "2023.03.23 07:05",
+        "file": "ucd-WebSphereLiberty-23.1154049.zip",
+        "notes": [
+            "Updated Jettison and log4j dependencies"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000002301154049"
+    },
+    {
+        "version": "22",
+        "semver": "22.1134888",
+        "date": "2022.07.12 06:33",
+        "file": "ucd-WebSphereLiberty-22.1134888.zip",
+        "notes": [
+            "Minor Fix - to pick JAVA_HOME set as per agent on linux machine"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000002201134888"
+    },
+    {
+        "version": "21",
+        "semver": "21.1100824",
+        "date": "2021.03.04 09:49",
+        "file": "WebSphereLiberty-21.1100824.zip",
+        "notes": [
+            "Fixing CVE:CVE-2019-4233"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000002101100824"
+    },
+    {
+        "version": "21",
+        "semver": "21.1056525",
+        "date": "2020.05.12 00:46",
+        "file": "WebSphereLiberty-21.1056525.zip",
+        "notes": [
+            "Fixing CVE:CVE-2019-4233"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000002101056525"
+    },
+    {
+        "version": "21",
+        "semver": "21.1026759",
+        "date": "2019.06.26 14:04",
+        "file": "WebSphereLiberty-21.1026759.zip",
+        "notes": [
+            "Fixing CVE:CVE-2019-4233"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000002101026759"
+    },
+    {
+        "version": "19",
+        "semver": "19.978387",
+        "date": "2018.05.09 15:00",
+        "file": "WebSphereLiberty-19.978387.zip",
+        "notes": [
+            "Fixes APAR PI97742 - 'Create Collective' step incorrectly encodes userPassword with linefeed added at the end"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001900978387"
+    },
+    {
+        "version": "18",
+        "semver": "18.974811",
+        "date": "2018.03.09 14:56",
+        "file": "WebSphereLiberty-18.974811.zip",
+        "notes": [
+            "Fixes APAR PI94186 - 'Install Server Archive' step expecting 'bin' directory and unzip not preserving file permissions"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001800974811"
+    },
+    {
+        "version": "17",
+        "semver": "17.943072",
+        "date": "2017.11.01 14:28",
+        "file": "WebSphereLiberty-17.943072.zip",
+        "notes": [
+            "Updated plugin documentation to describe output properties created by Start Server and Stop Server steps.  Also fixed problem where output properties were not being set correctly when starting/stopping servers via the collective controller.",
+            "RFE 100414 - Added the context sensitive help for plugin step named Install or update application via server.xml",
+            "Fixes APAR PI88752 to stream the Liberty process output to the plugin start/stop UCD output"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001700943072"
+    },
+    {
+        "version": "16",
+        "semver": "16.930005",
+        "date": "2017.08.18 11:27",
+        "file": "WebSphereLiberty-16.930005.zip",
+        "notes": [
+            "Implements RFE 104618 to merge multiple plugin-cfg.xml(s) from multiple servers and propagates it to target web servers."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001600930005"
+    },
+    {
+        "version": "15",
+        "semver": "15.915950",
+        "date": "2017.05.23 14:40",
+        "file": "WebSphereLiberty-15.915950.zip",
+        "notes": [
+            "Fixes APAR PI82000 Start Server Plugin step incorrectly reports failure on non-English platforms"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001500915950"
+    },
+    {
+        "version": "14",
+        "semver": "14.912008",
+        "date": "2017.05.08 12:38",
+        "file": "WebSphereLiberty-14.912008.zip",
+        "notes": [
+            "Fixes APAR PI81234 Timeout occurs on \"Start Application\" step in WAS Liberty Plugin"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001400912008"
+    },
+    {
+        "version": "13",
+        "semver": "13.909701",
+        "date": "2017.04.22 00:13",
+        "file": "WebSphereLiberty-13.909701.zip",
+        "notes": [
+            "Added support to handle the case where the specified Liberty installation directory only contains the directory named 'wlp', not 'bin', 'lib', etc.",
+            "Added support for starting/stopping all servers in wlp.user.dir."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001300909701"
+    },
+    {
+        "version": "12",
+        "semver": "12.891854",
+        "date": "2017.02.24 09:48",
+        "file": "WebSphereLiberty-12.891854.zip",
+        "notes": [
+            "Fixes APAR PI77192 - Error in IBM WebSphere Liberty Plugin step JoinCollective"
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001200891854"
+    },
+    {
+        "version": "11",
+        "semver": "11.869067",
+        "date": "2016.12.22 13:40",
+        "file": "WebSphereLiberty-11.869067.zip",
+        "notes": [
+            "Support property file encryption."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001100869067"
+    },
+    {
+        "version": "10",
+        "semver": "10.848664",
+        "date": "2016.11.09 11:03",
+        "file": "WebSphereLiberty-10.848664.zip",
+        "notes": [
+            "Add a step to generate Component-Resource properties from Liberty variable tags in the configuration files.",
+            "Add a step to replace the values of Liberty variables in the configuration files with the values of Component-Resource properties.",
+            "Fix problems on Windows platforms related to spaces in paths."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000001000848664"
+    },
+    {
+        "version": "9",
+        "semver": "9.828195",
+        "date": "2016.09.22 11:47",
+        "file": "WebSphereLiberty-9.828195.zip",
+        "notes": [
+            "Add support to allow specifying multiple servers for Start/Stop Server, Create/Delete Server and Join Collective steps.",
+            "Add support to allow specifying wlp.user.dir in plugin steps.",
+            "Fixed charset issue when writing server configuration files on z/OS."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000900828195"
+    },
+    {
+        "version": "9",
+        "semver": "9.827833",
+        "date": "2016.09.21 14:21",
+        "file": "WebSphereLiberty-9.827833.zip",
+        "notes": [
+            "Add support to allow specifying multiple servers for Start/Stop Server, Create/Delete Server and Join Collective steps.",
+            "Add support to allow specifying wlp.user.dir in plugin steps.",
+            "Fixed charset issue when writing server configuration files on z/OS."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000900827833"
+    },
+    {
+        "version": "8",
+        "semver": "8.802646",
+        "date": "2016.07.07 13:33",
+        "file": "WebSphereLiberty-8.802646.zip",
+        "notes": [
+            "Added support for new plugin steps named Register Host, Unregister Host, Update Host and Upload File To Collective Host.",
+            "Add support for joining a server to a collective via the collective controller.",
+            "Add support for starting and stopping a server via its collective controller."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000800802646"
+    },
+    {
+        "version": "8",
+        "semver": "8.801347",
+        "date": "2016.06.27 16:27",
+        "file": "WebSphereLiberty-8.801347.zip",
+        "notes": [
+            "Added support for new plugin steps named Register Host, Unregister Host, Update Host and Upload File To Collective Host.",
+            "Add support for joining a server to a collective via the collective controller.",
+            "Add support for starting and stopping a server via its collective controller."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000800801347"
+    },
+    {
+        "version": "7",
+        "semver": "7.778014",
+        "date": "2016.04.22 11:55",
+        "file": "WebSphereLiberty-7.778014.zip",
+        "notes": [
+            "Fixes APAR PI60739 - Start Server step does not complete if started on Windows."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000700778014"
+    },
+    {
+        "version": "5",
+        "semver": "5.776152",
+        "date": "2016.04.18 11:29",
+        "file": "WebSphereLiberty-5.776152.zip",
+        "notes": [
+            "Fixes APAR PI59316 - Install Server Archive step not preserving file permissions when unzipping."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000500776152"
+    },
+    {
+        "version": "3",
+        "semver": "3.641636",
+        "date": "2015.02.24 13:56",
+        "file": "WebSphere-Liberty-3.641636.zip",
+        "notes": [
+            "Fixes APAR PI35342 - compatibility defect with IBM Urbancode Deploy version 6.1.0.4 and later."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000300641636"
+    },
+    {
+        "version": "2",
+        "semver": "2.455142",
+        "date": "2013.11.20 09:03",
+        "file": "WebSphereLiberty-2.455142.zip",
+        "notes": [],
+        "supports": "",
+        "SORT_VERSION": "0000000200455142"
+    },
+    {
+        "version": "1",
+        "semver": "1.423643",
+        "date": "2013.08.08 17:29",
+        "file": "WebSphereLiberty-1.423643.zip",
+        "notes": [
+            "This plugins will give the user access to steps for interacting with WebSphere Liberty Profiles for configuration and deployment. These steps will be available in the step tree in location Application Server/Java/WebSphere Liberty."
+        ],
+        "supports": "",
+        "SORT_VERSION": "0000000100423643"
+    },
+    {
+        "version": "0",
+        "semver": "0.0",
+        "date": "",
+        "file": "SampleApplications/CreateCollectiveSampleApp.zip.001",
+        "notes": [],
+        "supports": "",
+        "SORT_VERSION": ""
+    },
+    {
+        "version": "0",
+        "semver": "0.0",
+        "date": "",
+        "file": "SampleApplications/CreateCollectiveSampleApp.zip.002",
+        "notes": [],
+        "supports": "",
+        "SORT_VERSION": ""
+    },
+    {
+        "version": "0",
+        "semver": "0.0",
+        "date": "",
+        "file": "SampleApplications/CreateCollectiveSampleApp.zip.003",
+        "notes": [],
+        "supports": "",
+        "SORT_VERSION": ""
+    },
+    {
+        "version": "0",
+        "semver": "0.0",
+        "date": "",
+        "file": "SampleApplications/CreateCollectiveSampleApp.zip.txt",
+        "notes": [],
+        "supports": "",
+        "SORT_VERSION": ""
+    }
+]
