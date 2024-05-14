@@ -26,7 +26,3 @@
 - Date: 2015.02.24 13:56 - [WebSphere-Liberty-3.641636.zip](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/3.641636/WebSphere-Liberty-3.641636.zip)
 - Date: 2013.11.20 09:03 - [WebSphereLiberty-2.455142.zip](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/2.455142/WebSphereLiberty-2.455142.zip)
 - Date: 2013.08.08 17:29 - [WebSphereLiberty-1.423643.zip](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/1.423643/WebSphereLiberty-1.423643.zip)
-- Date:  - [SampleApplications/CreateCollectiveSampleApp.zip.001](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/0.0/SampleApplications/CreateCollectiveSampleApp.zip.001)
-- Date:  - [SampleApplications/CreateCollectiveSampleApp.zip.002](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/0.0/SampleApplications/CreateCollectiveSampleApp.zip.002)
-- Date:  - [SampleApplications/CreateCollectiveSampleApp.zip.003](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/0.0/SampleApplications/CreateCollectiveSampleApp.zip.003)
-- Date:  - [SampleApplications/CreateCollectiveSampleApp.zip.txt](https://github.com/Deploy-Plugins/deploy-websphereliberty/releases/download/0.0/SampleApplications/CreateCollectiveSampleApp.zip.txt)
